@@ -1,0 +1,361 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 43, 127, 1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(252, 209, 22, 1);
+    border-radius: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ce1126;
+}
+
+nav {
+    background-color: rgba(0, 43, 127, 0.9);
+}
+
+.top-container-drawer {
+    width: 100%;
+    height: auto;
+    background-color: #e9ecea;
+    padding: 5px;
+    text-align: center;
+    color: gray;
+}
+
+.top-container-drawer img {
+    width: 15px;
+    height: 15px;
+}
+
+.top-container {
+    padding: 20px;
+}
+
+.top-container img {
+    width: 250px;
+    height: 125px;
+}
+
+.top-card {
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.top-card img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.top-card .row p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+}
+
+.top-card p {
+    color: gray;
+}
+
+
+/* nav {
+    position: sticky;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+} */
+
+.container-margin {
+    padding: 10px;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.carousel-caption::-webkit-scrollbar {
+    width: 0;
+}
+
+.carousel-caption h1 {
+    font-weight: 300;
+}
+
+.capt {
+    position: relative;
+    height: auto;
+}
+
+.capt p {
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 900px) {
+    .capt p {
+        font-size: medium;
+    }
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* section */
+
+.container-card {
+    padding: 20px;
+    text-align: center;
+}
+
+.container-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.container-card .title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.container-card .subtitle {
+    color: gray;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+
+/* section */
+
+
+/* upper wrapper */
+
+.upper-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url('../images/van-fleet.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.content {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        width: 100%;
+    }
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.content p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* upper wrapper */
+
+
+/* second wrapper */
+
+.scn-img-container {
+    margin-top: 20px;
+    height: 400px;
+    width: auto;
+}
+
+.scn-img-container img {
+    height: 100%;
+    width: 100%;
+}
+
+.scn-img-caption {
+    padding: 30px 0;
+}
+
+.scn-img-caption hr {
+    background-color: #6f9283;
+    height: 1px;
+}
+
+.scn-img-caption p {
+    text-align: center;
+}
+
+.scn-van-image {
+    width: 130px;
+    height: 130px;
+}
+
+.scn-van-image img {
+    width: 100%;
+    height: auto;
+}
+
+.scn-van-description {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.scn-courier-image {
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.scn-courier-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* second wrapper */
+
+
+/* third wrapper */
+
+.third-wrapper {
+    margin: 0;
+    padding: 30px;
+    background-color: rgba(0, 43, 127, 0.8);
+    color: white;
+    text-align: center;
+}
+
+.third-wrapper h1 {
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.third-wrapper .info-title {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.third-wrapper .info-details {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.form-container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* ATENTIE */
+
+@media only screen and (max-width: 1000px) {
+    .form-container {
+        width: 100%;
+    }
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(0, 43, 127, 0.9);
+}
+
+footer h4 {
+    font-weight: lighter;
+}
+
+.footer-office-section {
+    border-left: 1px solid #6f9283;
+    padding-left: 5px;
+}
+
+.footer-logo {
+    width: 200px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-hr {
+    background-color: #6f9283;
+}
+
+.footer-trademark {
+    color: #6f9283;
+}
+
+.right {
+    float: right;
+}
+
+.custom-file-input {
+    cursor: pointer;
+}
+
+
+/* FOOTER ENDS */
